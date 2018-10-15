@@ -17,14 +17,14 @@ public class arrayList{
         //ob.remove(2);
         ob.set(2,"kriti");//to update the value
         Collections.swap(ob,1,2);//swapping will take place between 1 and 2 indexes
-        for(String a:ob){
+       /*  for(String a:ob){
              System.out.println(a);
-        }
+        } */
         System.out.println(ob.get(2));
-        System.out.println("index: " + ob.indexOf("hii"));
+       /*  System.out.println("index: " + ob.indexOf("hii"));
         System.out.println("size of ArrayList is : " + ob.size());
         System.out.println("contains method : " + ob.contains("no"));
         ob.clear();
-        System.out.println("size after clearing : " + ob.size());
+        System.out.println("size after clearing : " + ob.size()); */
     }
 }
