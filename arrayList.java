@@ -9,9 +9,9 @@ public class arrayList{
         ob.add(3,"kriti");
         ob.add(4,"garg");
         Iterator t = ob.iterator();
-        /*while(t.hasNext()){
+        while(t.hasNext()){
              System.out.println(t.next());
-        }*/
+        }
         ob.remove(3);
         ob.remove("hello");
         //ob.remove(2);
@@ -21,10 +21,10 @@ public class arrayList{
              System.out.println(a);
         } */
         System.out.println(ob.get(2));
-       /*  System.out.println("index: " + ob.indexOf("hii"));
+        System.out.println("index: " + ob.indexOf("hii"));
         System.out.println("size of ArrayList is : " + ob.size());
         System.out.println("contains method : " + ob.contains("no"));
         ob.clear();
-        System.out.println("size after clearing : " + ob.size()); */
+        System.out.println("size after clearing : " + ob.size());
     }
 }

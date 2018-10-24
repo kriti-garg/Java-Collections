@@ -32,9 +32,11 @@ public class treesSetClass{
     public static void main(String[] args){
         Student o1 = new Student(1,"kriti",78);
         Student o2 = new Student(2,"arnav",90);
+        Student o3 = new Student(3,"baarish",89);
         TreeSet<Student> obj = new TreeSet<Student>();
         obj.add(o1);
         obj.add(o2);
+        obj.add(o3);
         for(Student k : obj)
         System.out.println(k);
     }

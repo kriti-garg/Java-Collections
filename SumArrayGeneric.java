@@ -16,7 +16,7 @@ public class SumArrayGeneric{
     public static void main(String[] args) {
         int summ;
         Integer arr[] = {1,2,3,4,5,6,7,8};
-        temp ob = new temp<Integer,int>(arr,summ);
+        temp ob = new temp<Integer,Integer>(arr,summ);
         /* int result = ob.sum(arr,summ);
         System.out.println(result); */
     }

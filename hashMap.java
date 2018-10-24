@@ -13,7 +13,7 @@ public class hashMap{
         obj.put(9,"biiee");
        /*  for(Map.Entry k:obj.entrySet()){
             System.out.print(k.getValue() + " ");
-            System.out.print(k.getKey());
+            System.out.print(k  .getKey());
             System.out.println();
         } */
         Set s = obj.entrySet();
